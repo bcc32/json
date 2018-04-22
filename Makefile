@@ -1,2 +1,0 @@
-all:
-	corebuild main.native

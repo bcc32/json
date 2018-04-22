@@ -1,0 +1,8 @@
+(executables
+ ((names (main))
+  (preprocess (pps (ppx_jane)))
+  (libraries (core))))
+
+(ocamllex (lexer))
+(menhir
+ ((modules (parser))))
