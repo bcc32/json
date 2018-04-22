@@ -1,4 +1,4 @@
-open Core
+open! Core
 
 let main () =
   let input = In_channel.(input_all stdin) in

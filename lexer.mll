@@ -1,5 +1,5 @@
 {
-open Core
+open! Core
 open Parser
 
 let unescape input =
